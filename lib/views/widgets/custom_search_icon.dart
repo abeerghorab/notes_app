@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:notes_app/views/constants.dart';
 
 class CustomSearchIcon extends StatelessWidget {
   const CustomSearchIcon({super.key, required this.icon});
@@ -16,6 +17,7 @@ class CustomSearchIcon extends StatelessWidget {
         child: Icon(
           icon,
           size: 28,
+          color: kPrimaryColor,
         ),
       ),
     );
